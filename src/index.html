@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="output.css" />
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body
+        class="m-0 p-0 box-border font-gilroy font-bold select-none w-screen h-screen bg-gray-200"
+    >
+        <div id="main" class="main-div">
+            <h1
+                class="bg-gradient-to-l font-gilroy-md cursor-text from-orange-400 to-amber-400 bg-clip-text text-transparent text-shadow-md text-shadow-slate-900/5 text-2xl"
+            >
+                Tic Tac Toe
+            </h1>
+            <div class="inside-div bg-[#E5E5E5]">
+                <small
+                    id="msg"
+                    class="text-amber-500 text-xl text-shadow-xs text-shadow-amber-400"
+                    >O's Turn</small
+                >
+                <div
+                    id="game"
+                    class="h-[75%] w-[75%] rounded-md grid gap-2 grid-cols-3 grid-rows-3"
+                >
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                    <div class="box text-white"></div>
+                </div>
+                <div
+                    id="resetBtn"
+                    class="p-1 bg-[#14213D] shadow-md shadow-sec ring-1 ring-sec text-shadow-md active:scale-95 transition-all duration-150 cursor-pointer rounded-md flex justify-center items-center"
+                >
+                    Reset
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
