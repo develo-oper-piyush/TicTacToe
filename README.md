@@ -7,7 +7,7 @@ This is a simple **TicTacToe** game which is created using JS and Tailwind CSS w
 ---
 
 ### 🌐 Live Demo:
-- [Click here]()
+- [Click here](https://tictactoe-piyush.netlify.app/)
 
 ### 🚀 Quick Start (To try this on your local machine)
 
